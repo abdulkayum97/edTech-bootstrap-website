@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-
 }
 
 .overlay::after {
@@ -11,7 +10,7 @@ body {
     left: 0;
     top: 0;
     background-color: black;
-    opacity: 0.85;
+    opacity: 0.6;
     z-index: 0;
 }
 
@@ -21,4 +20,21 @@ body {
 
 .instructor {
     background-color: #F4FAFD;
+}
+
+@media only screen and (max-width: 575px) {
+
+    .slider-content {
+        right: 0;
+        left: 0;
+    }
+
+    .slider-content h1 {
+        font-size: 24px;
+    }
+
+    .slider-content p {
+        font-size: 14px;
+    }
+
 }
